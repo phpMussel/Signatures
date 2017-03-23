@@ -4,6 +4,6 @@ An ideal solution for shared hosting environments, where it's often not possible
 
 ## **What's this repository for?**
 
-This repository, "__[signatures](https://github.com/phpMussel/signatures)__", is intended as a distribution point for phpMussel signatures.
+This repository, "__[signatures](https://github.com/phpMussel/Signatures)__", is intended as a distribution point for phpMussel signatures.
 
 *This file, "README.md", last edited: 7th November 2016 (2016.11.07).*

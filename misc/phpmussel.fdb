@@ -1,8 +1,9 @@
->FN>^[0-9A-Za-z]+$>4
+phpMussel
+>FN>^[0-9A-Za-z]+$>5
 2X-27:^(r57|sfdg2|suntzu)$
 2Rustock-21:^(kasutio|jnhjkfrn|fnhoje)
 2Rustock-22:^sysldr$
->FN>[-]>22
+>FN>[-]>23
 2X-19:jsp\x2dreverse\.jsp
 2X-37:^(amazing|delicious|little)\x2d[a-z]{4,}(\x2d[a-z]+)
 2X-38:[a-z]{4,}\x2d3d\x2d[a-z]{5,}
@@ -20,23 +21,23 @@
 2X-49.E:\x2dthe\x2dmovie
 2X-50:[Gg]\x2d[Hh]\x2d[0Oo]\x2d[Ss]\x2d[Tt]
 2Suspect.RegHacker-0:[{].{0,128}\x2d.{0,128}[}]
->FN>_>29
+>FN>_>30
 2X-01:btn_list
 2X-18:jackrosejump_la
 2X-21:l_backuptoster
 2Suspect.Executable-4:_[Hh][4Aa][Cc][Kk].{0,128}\.(386|[Aa][Cc][Mm]|[Aa][Xx]|[Cc][Oo][Mm]|[Rr][Ss][^Ss]|[Cc][Pp][Ll]|[Dd][Ll][Ll]|[Dd][Rr][Vv]|[Ee][Xx][Ee]|[Oo][Cc][Xx]|[Ss][Cc][FfRrTt]|[Ss][Yy][Ss]|[Vv][Xx][Dd]|[Bb][Aa][SsTt]|[Cc][Mm][Dd]|[Jj][Ss]|[Vv][Bb]|[Ww][Ss]|[Pp][Ii][Ff]|[Aa][Pp]{2}|[Rr][Ee][Gg]|[Ff][Xx][Pp]|[Kk][Ss][Hh]|[Oo][Pp][SsXx]|[Pp][Rr][Gg])
 2HideMe-0:^_[Hh][1Ii][Dd][3Ee][Mm][3Ee]_.{0,128}\..{2,3}
 2RTKT_DUQU.A-2:^[Tt][Rr][Oo][Jj]_[Dd][Uu][Qq][Uu]\.([Ee][Nn][Cc]|[Cc][Ff][Gg])
->FN>\.[Cc]>33
+>FN>\.[Cc]>34
 2X-03.A:[Ee][Xx][Ee][Cc]\.[Cc][Ff][Mm]
 2All.In.One-1:^all\x2d?in\x2d?one\x2d?spy\.chm
 2HacDef.AB-0:^dike(entry|traffic)\.conf
->FN>\.[Dd][Aa][Tt]>38
+>FN>\.[Dd][Aa][Tt]>39
 2X-06.A:[Cc][Ss][Ee]\.[Dd][Aa][Tt]
 2Haxdoor-00:^(lps|m012741|tn145|r85064)\.dat
 2Infostealer.Blurax-0C:svvhost\.dat
 2SkyNet-0B:[Ss][Kk][Yy][Nn][Ee][Tt].{0,128}\.[Dd][Aa][Tt]
->FN>\.[Dd][Ll][Ll]>117
+>FN>\.[Dd][Ll][Ll]>118
 ’DLL-00:^[0-9][-_.]?[0-9]?\.dll
 ’DLL-01:^[Aa](cub|lloyico|lloyio|lt_lovebeads|mcis32|pxi|sycfilt|tk|vicap)?\.dll
 ’DLL-02:^[Bb](ackdll|inder|JJHBSDBT|nfun|nfun|nhook|o3des|ole16d|orlndmm|o_peep|t|t2k|uttsniff)?\.dll
@@ -115,7 +116,7 @@
 2"FastFinder-0:^fftoolbar\.dll
 2"HotFix-0:^[Rr][Hh]\.[Dd][Ll][Ll]
 2#MyWebSearch-0:^[Mm][Ww][Ss]([Bb][Aa][Rr]|[Oo][Ee][Ss][Tt][Bb]|[Ss][Rr][Cc][Aa][Ss])\.[Dd][Ll][Ll]
->FN>\.[Ee][Xx][Ee]>241
+>FN>\.[Ee][Xx][Ee]>242
 ’EXE-00:^[0-9][-_.]?[0-9]?\.exe
 ’EXE-01:^[Aa](a_v3|aprices|ddobe|cckontrol|ccount_info.{0,12}|chtung|cidkor|cidshiver?|ckcmd[cs]|cropolis|d12_cli|d12_src|dm|dmin|dmintool.{0.9}|dvapi32|gent|ggeg|hmad[0-9]?|ids|lb|lerta|lien|lienspy|lloy|lloyca|ll_acces_videos|lma|lps_algusmail\x40mailru|nalftp|ndroid|nexo|nti-Taliban|nti|ntigen|ntinuke|ntispector|nti_terrorism|nts3set|olaccount|pophisspy|app|app32|app64|ppboost|ppl_|pplication|puliaiv|rce11ActualizacionVista|rchiver|risx06|rmadown|rmageddoneditor|rmlock|sapocalipsenow|sds?|server|sgea|shley|shley_secret_xxx_diary|smphoto[12]|spam|tapi|tclient|tfinder|tk|tomic2|tpass|tserver|tserverfinder|tserverinstaller\x2bwck|tserverinstaller|ttacker|USVC|utoexe|utopoll|utospy|utospy13|utumnss|UUPG|vkillah2|VP_The_moore_goog|vtrojan|windll|xdist|zaco|_s)?\.exe
 ’EXE-02:^[Bb](\x20JamiesCheat\x20Loader|0be001|2001b17|ack-streets|ackageclient|ackageserver|ackageserver2|ackage_3_1|ackdoor|ackdoor\.foxeyes\.30|ackfind|ackfire|ackstealth|ackup32|ackwebserv|adass|ad_day|arok|asher|asichell|at2com|bcli|ckfired|CYUH|d|ddt|ddtkli|eigllbe|enjaminwormremover|estfriend|eta|etaclientc|etaserver17|fe|g10|hgdkjf|hs|igbro|igbrother|igserver|ill|illgate|illgt|in2db|ind|inder|ILL{0,64}|inladen_brasil|ionet|ionix|IXtKRz|laaaaa|lackangel|lackdoor|laclient2?|lade|lah|leem|less|londe|mb2|mclient|o1t|o2|o2kcfg|o2kgui|o2k_1_0_full|obo|oclient|oconfig|of|ogui|oguiru|olt|oobs|oot|orm|oserve|owl|oxscanner|reachclient|reachpro|s|tvs|ubbel|uddylist|udsaver|ug\xb4s|ug|ugfix|ugs|ullbull|undy|uny|urnpunta|usconquerer13|uttsniff|VT|ZBgrLm)?\.exe
@@ -239,11 +240,11 @@
 2Fake.phpBB:^php[Bb]{2}[23]?_setup\.exe$
 2Fake.phpMussel:^php[Mm]ussel_setup\.exe$
 2Fake.UndeletePlus:^undelete-plus_setup\.exe$
->FN>\.[Ii][Nn][Ii]>245
+>FN>\.[Ii][Nn][Ii]>246
 2/Peacomm:^([Ee][Cc]ard|halloween|[Mm][Ss][Dd]ata[Aa]ccess|noskrnl|sony|spooldr)\.ini
 2/HackDefender-0B:^(ro0|ioservice)\.ini
 2/Rustock-25:^zdegpig\.ini
->FN>\.[Pp][Hh][Pp]>257
+>FN>\.[Pp][Hh][Pp]>258
 2 X-00:[Ee][Xx][Ee][Cc]\.[Pp][Hh][Pp]
 2 X-01:[Cc]([Ss][Ee]|[Xx][0-9]{0,64}|[0-9]{2,3})\.[Pp][Hh][Pp]
 2 X-02:[Dd][0Oo]{2}[Rr][0-9]{0,64}\.[Pp][Hh][Pp]
@@ -255,7 +256,7 @@
 2 X-08:^(aha|axa|cih|myshe|reno|som2|upnew|xia|xpl)\.php
 2 X-09:^[Uu][Pp][Xx]\.[Pp][Hh][Pp]
 2 /X-00:^[Hh]3[Xx]\.[Pp][Hh][Pp]$
->FN>\.[Pp][^Hh]>265
+>FN>\.[Pp][^Hh]>266
 2RTKT_DUQU.A-0B:^[Cc][Mm][Ii]44(32|64)\.[Pp][Nn][Ff]
 2HackDefender-00:^msd[nv]dr\.pif
 2Rustock-26:^pcximg\.pif
@@ -263,7 +264,7 @@
 2-X-00:equiangle\.pl
 2-X-01:([Mm][Ii][Ss][Tt][Ll][Ee][Ss]{2}|[Ii][Nn][Dd][Ii][Vv][Ii][Ss][Ii][Oo][Nn])\.[Pp][Ll]
 2-WHMCS:^whmcs\.py
->FN>\.[Ss][Yy][Ss]>403
+>FN>\.[Ss][Yy][Ss]>404
 ’SYS-01:^[Aa](sc355|pcdli)?\.sys
 ’SYS-02:^[Bb](ASFNDD)\.sys
 ’SYS-03:^[Cc](mdriver|lbdriver|tl_w32|md640x|onfstub)\.sys
@@ -401,20 +402,20 @@
 2Sanjicom-0:^rdpdrv\.sys
 2 X-2:[Kk][3Ee][Yy][Ll][0Oo][Gg].{0,128}\.[Ss][Yy][Ss]
 2#Naras-0B:^msinfomgr\.sys
->FN>\.[Ss][Cc][Rr]>409
+>FN>\.[Ss][Cc][Rr]>410
 2SteamThief-00:([Tt][Ff]2|[Tt][Rr][Aa][Dd][Ee]|[Ss][Tt][3Ee][4Aa][Mm]|[Rr][Ee][Qq][Uu][Ee][Ss][Tt])\.[Ss][Cc][Rr]$
 2X-0:^scr.{3}[0-9]+\.scr
 2!CryptoLocker-00:^\xd0\x94\xd0\xbe\xd0\xb3\xd0\xbe\xd0\xb2\xd0\xbe\xd1\x80\.scr$
 2#FakeRemote-1:^-?txt\.scr$
 2#X-00:^[Ff]{4,64}\.[Ss][Cc][Rr]$
->FN>\.[Tt][Xx][Tt]>414
+>FN>\.[Tt][Xx][Tt]>415
 2*X-00:^c[0-9]{2,3}\.[Tt][Xx][Tt]
 2*X-01:[Cc][Xx][0-9]{0,64}\.[Tt][Xx][Tt]
 2*#Rahack-00:^[Ll][Oo][Gg][Xx]\.[Tt][Xx][Tt]$
 2*/X-00:0[Ww][Nn][3Ee][Dd]\.[Tt][Xx][Tt]
->$climode>1>416
+>$climode>1>417
 2Illegal.Character-3F:\x3f
->!$climode>1>453
+>!$climode>1>454
 2Illegal.Character-00:\x00
 2Illegal.Character-01:\x01
 2Illegal.Character-02:\x02
@@ -452,7 +453,7 @@
 2Illegal.Character-2A:\x2a
 2Illegal.Character-7F:\x7f
 7DoubleExtension-00:\..{2,3}[- +_.]{0,64}\.(386|[Aa][Cc][Mm]|[Aa][Xx]|[Cc][Oo][Mm]|[Rr][Ss][^Ss]|[Cc][Pp][Ll]|[Dd][Ll][Ll]|[Dd][Rr][Vv]|[Ee][Xx][Ee]|[Oo][Cc][Xx]|[Ss][Cc][FfRrTt]|[Ss][Yy][Ss]|[Vv][Xx][Dd]|[Bb][Aa][SsTt]|[Cc][Mm][Dd]|[Jj][Ss]|[Vv][Bb]|[Ww][Ss]|[Pp][Ii][Ff]|[Ll][Ii]?[Nn][Kk]|[Uu][Rr][IiLl]|[Aa][Dd][EePp]|[Aa][Pp]{2}|[Dd][Bb]|[Mm][Dd][AaBbEeTtWwZz]|[Pp][Rr][Ff]|[Mm][Hh][Tt]|[Mm][Ss][CcIiPpRrTt]|[Pp][Cc][Dd]|[Rr][Ee][Gg]|[Ss][Hh][BbSs]|[Ww][Mm][FfLlSs]|[Aa][Ss][PpXx]|[Ee][Mm][FfLlZz]|[Xx][MmSs][Ll]|[Vv][Ss][DdSsTtWw]|[Ff][Xx][Pp]|[Kk][Ss][Hh]|[Oo][Pp][SsXx]|[Pp][Rr][Gg])
->FN>\.[0-9A-Za-z]{3,4}\.[0-9A-Za-z]{3,4}$>467
+>FN>\.[0-9A-Za-z]{3,4}\.[0-9A-Za-z]{3,4}$>468
 7DoubleExtension-01:\.([Dd][Oo][Cc][Xx]?|[Xx][Ll][Ss]|[Jj][Pp][Ee]?[Gg]|[Pp][Dd][Ff])\.([Vv][Bb][SsEe]|[Ee][Xx][Ee]|[Ss][Cc][Rr]|[Dd][Ll][Ll]|[Ss][Yy][Ss]|[Mm][Ss][CcIi])$
 7DoubleExtension-02:\.([Ii][Nn][Aa]|[Ss][Yy][Ss])\.[Bb][Aa][Tt]$
 7DoubleExtension-03:\.([Jj][Pp][Ee]?[Gg]|[Ee][Xx][Ee]|[Tt][Xx][Tt]|[Dd][Ll][Ll])\.[Vv][Bb][SsEe]$

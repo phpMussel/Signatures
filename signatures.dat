@@ -1,7 +1,7 @@
 ---
 hex_general_commands.csv:
  Name: General command detections.
- Version: 2015.10.17
+ Version: 2017.63.347
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -12,11 +12,11 @@ hex_general_commands.csv:
   To:
    - signatures/hex_general_commands.csv
   Checksum:
-   - 985b1f0469f32e0aed2c335146a25bbc:1442
+   - 88d019e61ec177aab12f545213da7239:1454
  Reannotate: signatures.dat
 phpmussel.cedb:
  Name: phpMussel complex extended signatures.
- Version: 2017.01.11
+ Version: 2017.63.347
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -27,11 +27,11 @@ phpmussel.cedb:
   To:
    - signatures/phpmussel.cedb
   Checksum:
-   - da427bd970f7e250897fa41471b1a3ad:84039
+   - 6258688d26b37abee20780011036cd5d:84050
  Reannotate: signatures.dat
 phpmussel.db:
- Name: phpMussel general signatures (standard).
- Version: 2017.01.11
+ Name: phpMussel standard signatures.
+ Version: 2017.82.881
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -42,11 +42,11 @@ phpmussel.db:
   To:
    - signatures/phpmussel.db
   Checksum:
-   - 2282771654123554840e0b7e896fc049:50658
+   - b08d675636c82ed57b0bf48d3f21215f:50669
  Reannotate: signatures.dat
 phpmussel.fdb:
  Name: phpMussel filename signatures.
- Version: 2017.01.11
+ Version: 2017.82.881
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -57,11 +57,11 @@ phpmussel.fdb:
   To:
    - signatures/phpmussel.fdb
   Checksum:
-   - b226205162ea09193c90cde05465ffb3:53406
+   - 74981ceafac4e5e09fb203b9eccf5fd5:53417
  Reannotate: signatures.dat
 phpmussel.hdb:
  Name: phpMussel hash signatures.
- Version: 2017.01.11
+ Version: 2017.63.347
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -72,11 +72,11 @@ phpmussel.hdb:
   To:
    - signatures/phpmussel.hdb
   Checksum:
-   - ce363c35a0129fbe6fe9719c2bdf05c4:68
+   - 75a8b5de6f23952e4143aed4f6ea1ed2:79
  Reannotate: signatures.dat
 phpmussel.htdb:
- Name: phpMussel HTML signatures (standard).
- Version: 2017.01.11
+ Name: phpMussel HTML signatures.
+ Version: 2017.63.347
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -87,11 +87,11 @@ phpmussel.htdb:
   To:
    - signatures/phpmussel.htdb
   Checksum:
-   - 465752fa92176e082e6593efce2e7088:11035
+   - 2b77f63e22e06796ccbd8ffdeddd2485:11046
  Reannotate: signatures.dat
 phpmussel.mdb:
  Name: phpMussel PE sectional signatures.
- Version: 2017.01.11
+ Version: 2017.63.347
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -102,11 +102,11 @@ phpmussel.mdb:
   To:
    - signatures/phpmussel.mdb
   Checksum:
-   - f33d33e47866ce0bb4999c8be2fb65fc:1430130
+   - 9aef731119c475a810ef42d5ddb1c9d1:1430141
  Reannotate: signatures.dat
 phpmussel.medb:
  Name: phpMussel PE metadata signatures.
- Version: 2017.01.11
+ Version: 2017.63.347
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -117,11 +117,11 @@ phpmussel.medb:
   To:
    - signatures/phpmussel.medb
   Checksum:
-   - 0de0c19a215e006f319d5460c7f2db49:91275
+   - ab82f2ca9b4cb8ee2cf262b01e777299:91286
  Reannotate: signatures.dat
 phpmussel.ndb:
- Name: phpMussel normalised signatures (standard).
- Version: 2017.01.11
+ Name: phpMussel normalised signatures.
+ Version: 2017.82.881
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -132,11 +132,11 @@ phpmussel.ndb:
   To:
    - signatures/phpmussel.ndb
   Checksum:
-   - 5571a1579d222bfe234aca9ac8dcbf81:47880
+   - 543894af2e59b6e087da6fec34c1235d:47890
  Reannotate: signatures.dat
 phpmussel.udb:
- Name: phpMussel URL scanner.
- Version: 2017.01.11
+ Name: phpMussel URL scanner signatures.
+ Version: 2017.63.347
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -147,11 +147,11 @@ phpmussel.udb:
   To:
    - signatures/phpmussel.udb
   Checksum:
-   - 58b8e7b37cc21e12f4f1b580381ef43a:2476770
+   - ee23b3c4d06de48092e376ba22890f4c:2476781
  Reannotate: signatures.dat
 phpmussel_elf.db:
- Name: phpMussel ELF signatures (standard).
- Version: 2017.01.11
+ Name: phpMussel ELF signatures.
+ Version: 2017.63.347
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -162,26 +162,11 @@ phpmussel_elf.db:
   To:
    - signatures/phpmussel_elf.db
   Checksum:
-   - 493f662382561b757a1c657217e7f915:872
- Reannotate: signatures.dat
-phpmussel_elf_regex.db:
- Name: phpMussel ELF signatures (regex).
- Version: 2017.01.11
- Minimum Required: 1.0.0-DEV
- Minimum Required PHP: 5.4.0
- Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
- Uninstallable: true
- Files:
-  From:
-   - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel_elf_regex.db.gz
-  To:
-   - signatures/phpmussel_elf_regex.db
-  Checksum:
-   - f922175b0922f163c9698311bc4278f1:14
+   - aca09bde3d2299a67c564f53590348c5:883
  Reannotate: signatures.dat
 phpmussel_email.db:
- Name: phpMussel email signatures (standard).
- Version: 2017.01.11
+ Name: phpMussel email signatures.
+ Version: 2017.63.347
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -192,11 +177,11 @@ phpmussel_email.db:
   To:
    - signatures/phpmussel_email.db
   Checksum:
-   - 4db4348bc0d46f0fd93424dff24632ae:15575
+   - 39da3e7e755976f56b21df499b9cd8d2:15586
  Reannotate: signatures.dat
 phpmussel_email_regex.db:
- Name: phpMussel email signatures (regex).
- Version: 2017.01.11
+ Name: phpMussel email regex signatures.
+ Version: 2017.63.347
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -207,11 +192,41 @@ phpmussel_email_regex.db:
   To:
    - signatures/phpmussel_email_regex.db
   Checksum:
-   - 5167fa8ffe242a0961979faeb4d1d0f6:2246
+   - 97aec9c6058d44fcb80411b330618b53:2257
+ Reannotate: signatures.dat
+phpmussel_exe.db:
+ Name: phpMussel PE signatures.
+ Version: 2017.82.881
+ Minimum Required: 1.0.0-DEV
+ Minimum Required PHP: 5.4.0
+ Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
+ Uninstallable: true
+ Files:
+  From:
+   - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel_exe.db.gz
+  To:
+   - signatures/phpmussel_exe.db
+  Checksum:
+   - 3faef07c498c0cab9c1684a426290c9a:5676
+ Reannotate: signatures.dat
+phpmussel_exe_regex.db:
+ Name: phpMussel PE regex signatures.
+ Version: 2017.82.881
+ Minimum Required: 1.0.0-DEV
+ Minimum Required PHP: 5.4.0
+ Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
+ Uninstallable: true
+ Files:
+  From:
+   - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel_exe_regex.db.gz
+  To:
+   - signatures/phpmussel_exe_regex.db
+  Checksum:
+   - cdc2ad50f7d0c0f36ed689393c1039b4:5105
  Reannotate: signatures.dat
 phpmussel_graphics.db:
- Name: phpMussel graphics signatures (standard).
- Version: 2017.01.11
+ Name: phpMussel graphics signatures.
+ Version: 2017.63.347
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -222,11 +237,11 @@ phpmussel_graphics.db:
   To:
    - signatures/phpmussel_graphics.db
   Checksum:
-   - 65b59335e890ca769b17734ee4c00e36:6853
+   - a5956e3fda98dea5d9f2ceb57bb2747f:6864
  Reannotate: signatures.dat
 phpmussel_graphics_regex.db:
- Name: phpMussel graphics signatures (regex).
- Version: 2017.01.11
+ Name: phpMussel graphics regex signatures.
+ Version: 2017.63.347
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -237,11 +252,41 @@ phpmussel_graphics_regex.db:
   To:
    - signatures/phpmussel_graphics_regex.db
   Checksum:
-   - 8a5c3cdf7eaab46760b95926ff2d8a0f:207
+   - f7e55b536a2f1e6b1c3322b3df9978a0:218
+ Reannotate: signatures.dat
+phpmussel_ole.db:
+ Name: phpMussel OLE signatures.
+ Version: 2017.82.881
+ Minimum Required: 1.0.0-DEV
+ Minimum Required PHP: 5.4.0
+ Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
+ Uninstallable: true
+ Files:
+  From:
+   - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel_ole.db.gz
+  To:
+   - signatures/phpmussel_ole.db
+  Checksum:
+   - e83d35103e2a46e405a907867b401030:1288
+ Reannotate: signatures.dat
+phpmussel_ole_regex.db:
+ Name: phpMussel OLE regex signatures.
+ Version: 2017.82.881
+ Minimum Required: 1.0.0-DEV
+ Minimum Required PHP: 5.4.0
+ Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
+ Uninstallable: true
+ Files:
+  From:
+   - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel_ole_regex.db.gz
+  To:
+   - signatures/phpmussel_ole_regex.db
+  Checksum:
+   - 9910378e3cf31574189e739edd968818:96
  Reannotate: signatures.dat
 phpmussel_pdf.db:
- Name: phpMussel PDF signatures (standard).
- Version: 2017.01.11
+ Name: phpMussel PDF signatures.
+ Version: 2017.63.347
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -252,26 +297,11 @@ phpmussel_pdf.db:
   To:
    - signatures/phpmussel_pdf.db
   Checksum:
-   - 0ca4e00933642f569be6ff5475045655:989
- Reannotate: signatures.dat
-phpmussel_pdf_regex.db:
- Name: phpMussel PDF signatures (regex).
- Version: 2017.01.11
- Minimum Required: 1.0.0-DEV
- Minimum Required PHP: 5.4.0
- Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
- Uninstallable: true
- Files:
-  From:
-   - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel_pdf_regex.db.gz
-  To:
-   - signatures/phpmussel_pdf_regex.db
-  Checksum:
-   - e4080a137c6d1ce11ecb6bbca90d3870:15
+   - 6ee67093068ae506cd7025c866a7709a:1000
  Reannotate: signatures.dat
 phpmussel_regex.db:
- Name: phpMussel general signatures (regex).
- Version: 2017.01.11
+ Name: phpMussel standard regex signatures.
+ Version: 2017.82.881
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -282,11 +312,11 @@ phpmussel_regex.db:
   To:
    - signatures/phpmussel_regex.db
   Checksum:
-   - 04f6c9bf1ef2f9b659f963bdfb1dcd29:4932
+   - b0dd13041f68a846746815731496ab2c:4943
  Reannotate: signatures.dat
 phpmussel_regex.htdb:
- Name: phpMussel HTML signatures (regex).
- Version: 2017.01.11
+ Name: phpMussel HTML regex signatures.
+ Version: 2017.63.347
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -297,11 +327,11 @@ phpmussel_regex.htdb:
   To:
    - signatures/phpmussel_regex.htdb
   Checksum:
-   - 89299bc630413dc3b11269e7cfb383f1:392
+   - 3cddfab79aca13ae13107fa6453033c5:403
  Reannotate: signatures.dat
 phpmussel_regex.ndb:
- Name: phpMussel normalised signatures (regex).
- Version: 2017.01.11
+ Name: phpMussel normalised regex signatures.
+ Version: 2017.82.881
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -312,11 +342,11 @@ phpmussel_regex.ndb:
   To:
    - signatures/phpmussel_regex.ndb
   Checksum:
-   - cf9d0795316270a6c14b05eb6a1f8da6:8890
+   - 0b7bdcff0ac319c5f472fa44bcc2cd16:8901
  Reannotate: signatures.dat
 phpmussel_swf.db:
- Name: phpMussel SWF signatures (standard).
- Version: 2017.01.11
+ Name: phpMussel SWF signatures.
+ Version: 2017.63.347
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -327,11 +357,11 @@ phpmussel_swf.db:
   To:
    - signatures/phpmussel_swf.db
   Checksum:
-   - 7e413928176233e391ec86670f1f2c2b:280
+   - 95be972e78dcdd613c24c7d413f41c8a:291
  Reannotate: signatures.dat
 phpmussel_swf_regex.db:
- Name: phpMussel SWF signatures (regex).
- Version: 2017.01.11
+ Name: phpMussel SWF regex signatures.
+ Version: 2017.63.347
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -342,6 +372,6 @@ phpmussel_swf_regex.db:
   To:
    - signatures/phpmussel_swf_regex.db
   Checksum:
-   - 9d24f357d40a332a60e9d0a83999e5a6:144
+   - b6c16155633c54db1ce5cb84b6646ce0:155
  Reannotate: signatures.dat
 
