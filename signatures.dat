@@ -59,6 +59,21 @@ phpmussel.fdb:
   Checksum:
    - 74981ceafac4e5e09fb203b9eccf5fd5:53417
  Reannotate: signatures.dat
+clamav.hdb:
+ Name: ClamAV hash signatures.
+ Version: 2017.208.588
+ Minimum Required: 1.0.0-DEV
+ Minimum Required PHP: 5.4.0
+ Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
+ Uninstallable: true
+ Files:
+  From:
+   - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav.hdb.gz
+  To:
+   - signatures/clamav.hdb
+  Checksum:
+   - f2b5bb459e6681e99c4f194fc94389a1:17965283
+ Reannotate: signatures.dat
 phpmussel.hdb:
  Name: phpMussel hash signatures.
  Version: 2017.63.347
