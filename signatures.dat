@@ -68,7 +68,7 @@ clamav.hdb:
  Uninstallable: true
  Files:
   From:
-   - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav.hdb.gz
+   - https://raw.githubusercontent.com/phpMussel/Signatures/master/clamav/clamav.hdb.gz
   To:
    - signatures/clamav.hdb
   Checksum:
@@ -113,7 +113,7 @@ clamav.mdb:
  Uninstallable: true
  Files:
   From:
-   - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav.mdb.gz
+   - https://raw.githubusercontent.com/phpMussel/Signatures/master/clamav/clamav.mdb.gz
   To:
    - signatures/clamav.mdb
   Checksum:
