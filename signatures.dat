@@ -104,6 +104,21 @@ phpmussel.htdb:
   Checksum:
    - 2b77f63e22e06796ccbd8ffdeddd2485:11046
  Reannotate: signatures.dat
+clamav.mdb:
+ Name: ClamAV PE sectional signatures.
+ Version: 2017.208.791
+ Minimum Required: 1.0.0-DEV
+ Minimum Required PHP: 5.4.0
+ Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
+ Uninstallable: true
+ Files:
+  From:
+   - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav.mdb.gz
+  To:
+   - signatures/clamav.mdb
+  Checksum:
+   - ac8b12adba64dc2fccc1d44fc6bc6dfa:18800083
+ Reannotate: signatures.dat
 phpmussel.mdb:
  Name: phpMussel PE sectional signatures.
  Version: 2017.63.347
