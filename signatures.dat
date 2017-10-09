@@ -46,7 +46,7 @@ phpmussel.cedb:
  Reannotate: signatures.dat
 clamav.db:
  Name: ClamAV standard signatures.
- Version: 2017.243.834
+ Version: 2017.281.666
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -76,7 +76,7 @@ phpmussel.db:
  Reannotate: signatures.dat
 clamav_regex.db:
  Name: ClamAV standard regex signatures.
- Version: 2017.243.834
+ Version: 2017.281.666
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -87,7 +87,7 @@ clamav_regex.db:
   To:
    - signatures/clamav_regex.db
   Checksum:
-   - c23f543a73dc3718b8287fec77a239d2:29956
+   - ffaf88e47f1650ede2405ba84ff5404a:30147
  Reannotate: signatures.dat
 phpmussel_regex.db:
  Name: phpMussel standard regex signatures.
@@ -136,7 +136,7 @@ phpmussel.fdb:
  Reannotate: signatures.dat
 clamav.hdb:
  Name: ClamAV hash signatures.
- Version: 2017.243.834
+ Version: 2017.281.665
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -147,7 +147,7 @@ clamav.hdb:
   To:
    - signatures/clamav.hdb
   Checksum:
-   - e9d7ac3f8e7bd501eb204d9f0d6c6c05:14291601
+   - e2d9cb7789ca76ae943641bbc351f6f4:14291705
  Reannotate: signatures.dat
 phpmussel.hdb:
  Name: phpMussel hash signatures.
@@ -166,7 +166,7 @@ phpmussel.hdb:
  Reannotate: signatures.dat
 clamav.htdb:
  Name: ClamAV HTML signatures.
- Version: 2017.243.834
+ Version: 2017.281.666
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -196,7 +196,7 @@ phpmussel.htdb:
  Reannotate: signatures.dat
 clamav_regex.htdb:
  Name: ClamAV HTML regex signatures.
- Version: 2017.243.834
+ Version: 2017.281.666
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -207,7 +207,7 @@ clamav_regex.htdb:
   To:
    - signatures/clamav_regex.htdb
   Checksum:
-   - b26945b6ef507ab9b781fd5ff87759c9:342037
+   - 600fa6286fa8fb4d8c37abbc59f1b5a3:342256
  Reannotate: signatures.dat
 phpmussel_regex.htdb:
  Name: phpMussel HTML regex signatures.
@@ -226,7 +226,7 @@ phpmussel_regex.htdb:
  Reannotate: signatures.dat
 clamav.mdb:
  Name: ClamAV PE sectional signatures.
- Version: 2017.243.834
+ Version: 2017.281.665
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -237,7 +237,7 @@ clamav.mdb:
   To:
    - signatures/clamav.mdb
   Checksum:
-   - 1536376da38cd1244eefa59cb11f4e01:15096410
+   - e259c4795c5dab46cb0a412b9ed67cda:15096491
  Reannotate: signatures.dat
 phpmussel.mdb:
  Name: phpMussel PE sectional signatures.
@@ -271,7 +271,7 @@ phpmussel.medb:
  Reannotate: signatures.dat
 clamav.ndb:
  Name: ClamAV normalised signatures.
- Version: 2017.243.834
+ Version: 2017.281.666
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -301,7 +301,7 @@ phpmussel.ndb:
  Reannotate: signatures.dat
 clamav_regex.ndb:
  Name: ClamAV normalised regex signatures.
- Version: 2017.243.834
+ Version: 2017.281.666
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -346,7 +346,7 @@ phpmussel.udb:
  Reannotate: signatures.dat
 clamav_elf.db:
  Name: ClamAV ELF signatures.
- Version: 2017.243.834
+ Version: 2017.281.666
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -376,7 +376,7 @@ phpmussel_elf.db:
  Reannotate: signatures.dat
 clamav_elf_regex.db:
  Name: ClamAV ELF regex signatures.
- Version: 2017.243.834
+ Version: 2017.281.666
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -391,7 +391,7 @@ clamav_elf_regex.db:
  Reannotate: signatures.dat
 clamav_email.db:
  Name: ClamAV email signatures.
- Version: 2017.243.834
+ Version: 2017.281.666
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -421,7 +421,7 @@ phpmussel_email.db:
  Reannotate: signatures.dat
 clamav_email_regex.db:
  Name: ClamAV email regex signatures.
- Version: 2017.243.834
+ Version: 2017.281.666
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -451,7 +451,7 @@ phpmussel_email_regex.db:
  Reannotate: signatures.dat
 clamav_exe.db:
  Name: ClamAV PE signatures.
- Version: 2017.243.834
+ Version: 2017.281.666
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -462,7 +462,7 @@ clamav_exe.db:
   To:
    - signatures/clamav_exe.db
   Checksum:
-   - bb595505b6239d7a425f290635847807:18329895
+   - 7fee88b4e6671071c4666f3521a73b56:18330357
  Reannotate: signatures.dat
 phpmussel_exe.db:
  Name: phpMussel PE signatures.
@@ -481,7 +481,7 @@ phpmussel_exe.db:
  Reannotate: signatures.dat
 clamav_exe_regex.db:
  Name: ClamAV PE regex signatures.
- Version: 2017.243.834
+ Version: 2017.281.666
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -492,7 +492,7 @@ clamav_exe_regex.db:
   To:
    - signatures/clamav_exe_regex.db
   Checksum:
-   - ba74288b4a57fd6fdb0fe2f7f2702557:478263
+   - dfee6a1948ff307f3b2467d7e5321aff:479923
  Reannotate: signatures.dat
 phpmussel_exe_regex.db:
  Name: phpMussel PE regex signatures.
@@ -511,7 +511,7 @@ phpmussel_exe_regex.db:
  Reannotate: signatures.dat
 clamav_graphics.db:
  Name: ClamAV graphics signatures.
- Version: 2017.243.834
+ Version: 2017.281.666
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -541,7 +541,7 @@ phpmussel_graphics.db:
  Reannotate: signatures.dat
 clamav_graphics_regex.db:
  Name: ClamAV graphics regex signatures.
- Version: 2017.243.834
+ Version: 2017.281.666
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -571,7 +571,7 @@ phpmussel_graphics_regex.db:
  Reannotate: signatures.dat
 clamav_java.db:
  Name: ClamAV Java signatures.
- Version: 2017.243.834
+ Version: 2017.281.666
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -586,7 +586,7 @@ clamav_java.db:
  Reannotate: signatures.dat
 clamav_java_regex.db:
  Name: ClamAV Java regex signatures.
- Version: 2017.243.834
+ Version: 2017.281.666
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -601,7 +601,7 @@ clamav_java_regex.db:
  Reannotate: signatures.dat
 clamav_macho.db:
  Name: ClamAV Mach-O signatures.
- Version: 2017.243.834
+ Version: 2017.281.666
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -616,7 +616,7 @@ clamav_macho.db:
  Reannotate: signatures.dat
 clamav_macho_regex.db:
  Name: ClamAV Mach-O regex signatures.
- Version: 2017.243.834
+ Version: 2017.281.666
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -631,7 +631,7 @@ clamav_macho_regex.db:
  Reannotate: signatures.dat
 clamav_ole.db:
  Name: ClamAV OLE signatures.
- Version: 2017.243.834
+ Version: 2017.281.666
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -661,7 +661,7 @@ phpmussel_ole.db:
  Reannotate: signatures.dat
 clamav_ole_regex.db:
  Name: ClamAV OLE regex signatures.
- Version: 2017.243.834
+ Version: 2017.281.666
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -691,7 +691,7 @@ phpmussel_ole_regex.db:
  Reannotate: signatures.dat
 clamav_pdf.db:
  Name: ClamAV PDF signatures.
- Version: 2017.243.834
+ Version: 2017.281.666
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -702,7 +702,7 @@ clamav_pdf.db:
   To:
    - signatures/clamav_pdf.db
   Checksum:
-   - 714eec59df9bea4916f58da98c7a7281:52319
+   - c50f6e5505ade8e0f2fae1795365e030:52417
  Reannotate: signatures.dat
 phpmussel_pdf.db:
  Name: phpMussel PDF signatures.
@@ -721,7 +721,7 @@ phpmussel_pdf.db:
  Reannotate: signatures.dat
 clamav_pdf_regex.db:
  Name: ClamAV PDF regex signatures.
- Version: 2017.243.834
+ Version: 2017.281.666
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -732,11 +732,11 @@ clamav_pdf_regex.db:
   To:
    - signatures/clamav_pdf_regex.db
   Checksum:
-   - 80c21a8efe33c84bf8ba6f31b6648532:13531
+   - 8d6e7b5ff06d5bfb389087745150a6a0:13617
  Reannotate: signatures.dat
 clamav_swf.db:
  Name: ClamAV SWF signatures.
- Version: 2017.243.834
+ Version: 2017.281.666
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -766,7 +766,7 @@ phpmussel_swf.db:
  Reannotate: signatures.dat
 clamav_swf_regex.db:
  Name: ClamAV SWF regex signatures.
- Version: 2017.243.834
+ Version: 2017.281.666
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
