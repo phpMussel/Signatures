@@ -6,6 +6,8 @@ hex_general_commands.csv:
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/hex_general_commands.csv.gz
@@ -21,6 +23,8 @@ clamav.cedb:
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav.cedb.gz
@@ -36,6 +40,8 @@ phpmussel.cedb:
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel.cedb.gz
@@ -46,18 +52,20 @@ phpmussel.cedb:
  Reannotate: signatures.dat
 clamav.db:
  Name: ClamAV standard signatures.
- Version: 2017.302.757
+ Version: 2018.16.677
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav.db.gz
   To:
    - signatures/clamav.db
   Checksum:
-   - 3d889caeaad47a40c260ec4480ea514e:478035
+   - ade4c3066850dd12ad2baafa02785401:477923
  Reannotate: signatures.dat
 phpmussel.db:
  Name: phpMussel standard signatures.
@@ -66,6 +74,8 @@ phpmussel.db:
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel.db.gz
@@ -76,18 +86,20 @@ phpmussel.db:
  Reannotate: signatures.dat
 clamav_regex.db:
  Name: ClamAV standard regex signatures.
- Version: 2017.302.757
+ Version: 2018.16.677
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav_regex.db.gz
   To:
    - signatures/clamav_regex.db
   Checksum:
-   - ffaf88e47f1650ede2405ba84ff5404a:30147
+   - 39e21992d0872e4a4eaa6a38ed08e7b1:30247
  Reannotate: signatures.dat
 phpmussel_regex.db:
  Name: phpMussel standard regex signatures.
@@ -96,6 +108,8 @@ phpmussel_regex.db:
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel_regex.db.gz
@@ -111,6 +125,8 @@ clamav.fdb:
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav.fdb.gz
@@ -121,33 +137,37 @@ clamav.fdb:
  Reannotate: signatures.dat
 phpmussel.fdb:
  Name: phpMussel filename signatures.
- Version: 2017.82.881
+ Version: 2018.16.680
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel.fdb.gz
   To:
    - signatures/phpmussel.fdb
   Checksum:
-   - 74981ceafac4e5e09fb203b9eccf5fd5:53417
+   - 0b83823556ccafa97640d7b55ff1d3b6:52797
  Reannotate: signatures.dat
 clamav.hdb:
  Name: ClamAV hash signatures.
- Version: 2017.302.757
+ Version: 2018.16.677
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/clamav/clamav.hdb.gz
   To:
    - signatures/clamav.hdb
   Checksum:
-   - 316610ef6241651d85e80899b9c349f0:14291718
+   - ea8420d6610ec8e0772101a08904a99a:14291938
  Reannotate: signatures.dat
 phpmussel.hdb:
  Name: phpMussel hash signatures.
@@ -156,6 +176,8 @@ phpmussel.hdb:
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel.hdb.gz
@@ -166,18 +188,20 @@ phpmussel.hdb:
  Reannotate: signatures.dat
 clamav.htdb:
  Name: ClamAV HTML signatures.
- Version: 2017.302.757
+ Version: 2018.16.677
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav.htdb.gz
   To:
    - signatures/clamav.htdb
   Checksum:
-   - 7db65b915a2cf567e49d3897304c12c7:827614
+   - 4905296eb243450cdab70284b322b47a:827987
  Reannotate: signatures.dat
 phpmussel.htdb:
  Name: phpMussel HTML signatures.
@@ -186,6 +210,8 @@ phpmussel.htdb:
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel.htdb.gz
@@ -196,18 +222,20 @@ phpmussel.htdb:
  Reannotate: signatures.dat
 clamav_regex.htdb:
  Name: ClamAV HTML regex signatures.
- Version: 2017.302.757
+ Version: 2018.16.677
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav_regex.htdb.gz
   To:
    - signatures/clamav_regex.htdb
   Checksum:
-   - 8f75958cf0b0cbe7efdb9c6ab48255e4:342656
+   - 8bedab5cabc6039e1beabf9d493e07ab:342753
  Reannotate: signatures.dat
 phpmussel_regex.htdb:
  Name: phpMussel HTML regex signatures.
@@ -216,6 +244,8 @@ phpmussel_regex.htdb:
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel_regex.htdb.gz
@@ -226,18 +256,20 @@ phpmussel_regex.htdb:
  Reannotate: signatures.dat
 clamav.mdb:
  Name: ClamAV PE sectional signatures.
- Version: 2017.302.757
+ Version: 2018.16.677
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/clamav/clamav.mdb.gz
   To:
    - signatures/clamav.mdb
   Checksum:
-   - e259c4795c5dab46cb0a412b9ed67cda:15096491
+   - 44b0999a39c1c902e728c83ed9ade2da:15096419
  Reannotate: signatures.dat
 phpmussel.mdb:
  Name: phpMussel PE sectional signatures.
@@ -246,6 +278,8 @@ phpmussel.mdb:
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel.mdb.gz
@@ -261,6 +295,8 @@ phpmussel.medb:
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel.medb.gz
@@ -271,11 +307,13 @@ phpmussel.medb:
  Reannotate: signatures.dat
 clamav.ndb:
  Name: ClamAV normalised signatures.
- Version: 2017.302.757
+ Version: 2018.16.677
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav.ndb.gz
@@ -291,6 +329,8 @@ phpmussel.ndb:
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel.ndb.gz
@@ -301,18 +341,20 @@ phpmussel.ndb:
  Reannotate: signatures.dat
 clamav_regex.ndb:
  Name: ClamAV normalised regex signatures.
- Version: 2017.302.757
+ Version: 2018.16.677
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav_regex.ndb.gz
   To:
    - signatures/clamav_regex.ndb
   Checksum:
-   - 235d423c67da91a088123fd5d21b9d61:49178
+   - ab304713e5e1eebf96ad57d8230628f4:49345
  Reannotate: signatures.dat
 phpmussel_regex.ndb:
  Name: phpMussel normalised regex signatures.
@@ -321,6 +363,8 @@ phpmussel_regex.ndb:
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel_regex.ndb.gz
@@ -331,26 +375,30 @@ phpmussel_regex.ndb:
  Reannotate: signatures.dat
 phpmussel.udb:
  Name: phpMussel URL scanner signatures.
- Version: 2017.304.595
+ Version: 2018.16.704
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel.udb.gz
   To:
    - signatures/phpmussel.udb
   Checksum:
-   - 7c2744887b0e4cb0899a6d44c7ebfcd5:2448946
+   - 21fb3ee01c45b19decaef2dedd58281b:2158662
  Reannotate: signatures.dat
 clamav_elf.db:
  Name: ClamAV ELF signatures.
- Version: 2017.302.757
+ Version: 2018.16.677
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav_elf.db.gz
@@ -366,6 +414,8 @@ phpmussel_elf.db:
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel_elf.db.gz
@@ -376,11 +426,13 @@ phpmussel_elf.db:
  Reannotate: signatures.dat
 clamav_elf_regex.db:
  Name: ClamAV ELF regex signatures.
- Version: 2017.302.757
+ Version: 2018.16.677
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav_elf_regex.db.gz
@@ -391,11 +443,13 @@ clamav_elf_regex.db:
  Reannotate: signatures.dat
 clamav_email.db:
  Name: ClamAV email signatures.
- Version: 2017.302.757
+ Version: 2018.16.677
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav_email.db.gz
@@ -411,6 +465,8 @@ phpmussel_email.db:
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel_email.db.gz
@@ -421,11 +477,13 @@ phpmussel_email.db:
  Reannotate: signatures.dat
 clamav_email_regex.db:
  Name: ClamAV email regex signatures.
- Version: 2017.302.757
+ Version: 2018.16.677
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav_email_regex.db.gz
@@ -441,6 +499,8 @@ phpmussel_email_regex.db:
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel_email_regex.db.gz
@@ -451,18 +511,20 @@ phpmussel_email_regex.db:
  Reannotate: signatures.dat
 clamav_exe.db:
  Name: ClamAV PE signatures.
- Version: 2017.302.757
+ Version: 2018.16.677
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav_exe.db.gz
   To:
    - signatures/clamav_exe.db
   Checksum:
-   - 5c97f57de60f023f56254344a8197f30:18331262
+   - 0cbb0d5de75e553834e6367a25644c48:18333676
  Reannotate: signatures.dat
 phpmussel_exe.db:
  Name: phpMussel PE signatures.
@@ -471,6 +533,8 @@ phpmussel_exe.db:
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel_exe.db.gz
@@ -481,18 +545,20 @@ phpmussel_exe.db:
  Reannotate: signatures.dat
 clamav_exe_regex.db:
  Name: ClamAV PE regex signatures.
- Version: 2017.302.757
+ Version: 2018.16.677
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav_exe_regex.db.gz
   To:
    - signatures/clamav_exe_regex.db
   Checksum:
-   - 1ad1ce5fa4417602b989c34f7484a677:480116
+   - 8bdbbb504acecfbe2218c8852d1a420a:482146
  Reannotate: signatures.dat
 phpmussel_exe_regex.db:
  Name: phpMussel PE regex signatures.
@@ -501,6 +567,8 @@ phpmussel_exe_regex.db:
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel_exe_regex.db.gz
@@ -511,11 +579,13 @@ phpmussel_exe_regex.db:
  Reannotate: signatures.dat
 clamav_graphics.db:
  Name: ClamAV graphics signatures.
- Version: 2017.302.757
+ Version: 2018.16.677
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav_graphics.db.gz
@@ -531,6 +601,8 @@ phpmussel_graphics.db:
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel_graphics.db.gz
@@ -541,11 +613,13 @@ phpmussel_graphics.db:
  Reannotate: signatures.dat
 clamav_graphics_regex.db:
  Name: ClamAV graphics regex signatures.
- Version: 2017.302.757
+ Version: 2018.16.677
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav_graphics_regex.db.gz
@@ -561,6 +635,8 @@ phpmussel_graphics_regex.db:
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel_graphics_regex.db.gz
@@ -571,11 +647,13 @@ phpmussel_graphics_regex.db:
  Reannotate: signatures.dat
 clamav_java.db:
  Name: ClamAV Java signatures.
- Version: 2017.302.757
+ Version: 2018.16.677
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav_java.db.gz
@@ -586,11 +664,13 @@ clamav_java.db:
  Reannotate: signatures.dat
 clamav_java_regex.db:
  Name: ClamAV Java regex signatures.
- Version: 2017.302.757
+ Version: 2018.16.677
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav_java_regex.db.gz
@@ -601,48 +681,54 @@ clamav_java_regex.db:
  Reannotate: signatures.dat
 clamav_macho.db:
  Name: ClamAV Mach-O signatures.
- Version: 2017.302.757
+ Version: 2018.16.677
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav_macho.db.gz
   To:
    - signatures/clamav_macho.db
   Checksum:
-   - 287d045e09fbfe75df399a6bf878a3e4:11064
+   - 6c02f4a6a3b05799f98cff1b4edf5a3f:11270
  Reannotate: signatures.dat
 clamav_macho_regex.db:
  Name: ClamAV Mach-O regex signatures.
- Version: 2017.302.757
+ Version: 2018.16.677
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav_macho_regex.db.gz
   To:
    - signatures/clamav_macho_regex.db
   Checksum:
-   - 1b294821c5875490cf30905aeffd5edc:9724
+   - 989261377ca68053119b2f51bc8fa0b5:9876
  Reannotate: signatures.dat
 clamav_ole.db:
  Name: ClamAV OLE signatures.
- Version: 2017.302.757
+ Version: 2018.16.677
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav_ole.db.gz
   To:
    - signatures/clamav_ole.db
   Checksum:
-   - 410a919543975a1e8ca8bac45b6504f5:149265
+   - 1c97872847365ecae95399e31ac34b8b:149170
  Reannotate: signatures.dat
 phpmussel_ole.db:
  Name: phpMussel OLE signatures.
@@ -651,6 +737,8 @@ phpmussel_ole.db:
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel_ole.db.gz
@@ -661,18 +749,20 @@ phpmussel_ole.db:
  Reannotate: signatures.dat
 clamav_ole_regex.db:
  Name: ClamAV OLE regex signatures.
- Version: 2017.302.757
+ Version: 2018.16.677
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav_ole_regex.db.gz
   To:
    - signatures/clamav_ole_regex.db
   Checksum:
-   - d279933aa79b5550dbe8f7249621e65d:31329
+   - 4c649394e5ab099b1e9f372dc5cc6a50:31830
  Reannotate: signatures.dat
 phpmussel_ole_regex.db:
  Name: phpMussel OLE regex signatures.
@@ -681,6 +771,8 @@ phpmussel_ole_regex.db:
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel_ole_regex.db.gz
@@ -691,18 +783,20 @@ phpmussel_ole_regex.db:
  Reannotate: signatures.dat
 clamav_pdf.db:
  Name: ClamAV PDF signatures.
- Version: 2017.302.757
+ Version: 2018.16.677
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav_pdf.db.gz
   To:
    - signatures/clamav_pdf.db
   Checksum:
-   - c50f6e5505ade8e0f2fae1795365e030:52417
+   - c7b7d9e28ac6d6671eff50b68ff38fb0:52620
  Reannotate: signatures.dat
 phpmussel_pdf.db:
  Name: phpMussel PDF signatures.
@@ -711,6 +805,8 @@ phpmussel_pdf.db:
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel_pdf.db.gz
@@ -721,26 +817,30 @@ phpmussel_pdf.db:
  Reannotate: signatures.dat
 clamav_pdf_regex.db:
  Name: ClamAV PDF regex signatures.
- Version: 2017.302.757
+ Version: 2018.16.677
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav_pdf_regex.db.gz
   To:
    - signatures/clamav_pdf_regex.db
   Checksum:
-   - 8d6e7b5ff06d5bfb389087745150a6a0:13617
+   - 58160dbbf844cce4f2b2943013b813a2:14318
  Reannotate: signatures.dat
 clamav_swf.db:
  Name: ClamAV SWF signatures.
- Version: 2017.302.757
+ Version: 2018.16.677
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav_swf.db.gz
@@ -756,6 +856,8 @@ phpmussel_swf.db:
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel_swf.db.gz
@@ -766,11 +868,13 @@ phpmussel_swf.db:
  Reannotate: signatures.dat
 clamav_swf_regex.db:
  Name: ClamAV SWF regex signatures.
- Version: 2017.302.757
+ Version: 2018.16.677
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/clamav_swf_regex.db.gz
@@ -786,6 +890,8 @@ phpmussel_swf_regex.db:
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
+ When Update Succeeds:
+  - ClearHashCache
  Files:
   From:
    - https://raw.githubusercontent.com/phpMussel/Signatures/master/misc/phpmussel_swf_regex.db.gz
