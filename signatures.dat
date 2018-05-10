@@ -375,7 +375,7 @@ phpmussel_regex.ndb:
  Reannotate: signatures.dat
 phpmussel.udb:
  Name: phpMussel URL scanner signatures.
- Version: 2018.65.821
+ Version: 2018.129.380
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
@@ -388,7 +388,7 @@ phpmussel.udb:
   To:
    - signatures/phpmussel.udb
   Checksum:
-   - 18eadb32138e3fc8ecacab94a80b0f0f:2668245
+   - 07f8232806e504dd9953b0418382b891:2642551
  Reannotate: signatures.dat
 clamav_elf.db:
  Name: ClamAV ELF signatures.
