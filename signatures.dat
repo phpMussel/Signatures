@@ -182,8 +182,8 @@ clamav.hdb:
 phpmussel.hdb:
  Name: phpMussel hash signatures.
  Extended Description: Whenever a file is scanned by phpMussel, a hash for that file is generated, and then checked against hash signatures to match against any potential specific, already known malicious files. Almost entirely useless against more modern, polymorphic viruses and malware, but relatively useful against older, non-polymorphic viruses and malware. The memory footprint and performance cost is relatively small, and it has a very low false positive risk. Generally recommended for most phpMussel setups.
- Version: 2017.63.347
- Minimum Required: 1.0.0-DEV
+ Version: 2019.54.365
+ Minimum Required: 1.9.0-DEV
  Minimum Required PHP: 5.4.0
  Remote: https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat
  Uninstallable: true
@@ -195,7 +195,7 @@ phpmussel.hdb:
   To:
    - signatures/phpmussel.hdb
   Checksum:
-   - 75a8b5de6f23952e4143aed4f6ea1ed2:79
+   - 308c6ad70b2bb234a31552145f0cc51f:21999
  Reannotate: signatures.dat
 clamav.htdb:
  Name: ClamAV HTML signatures.
