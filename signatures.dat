@@ -1,4 +1,4 @@
-0: false
+---
 hex_general_commands.csv:
  Name: "General command detections."
  Extended Description: "This signature file can detect simple commands such as eval, require, include, unserialize, etc, often found in executable script files. It may be useful as a means to detect unwanted, obfuscated executable code and scripting hidden inside files that could be malicious, but could otherwise appear innocent and harmless, if you happen to allow only very small, "non-binary" (i.e., plain-text) files to be uploaded, small image files for forum avatars, etc, and if your website only deals with low volumes of uploads. However, it should be noted that this particular signature file poses a **VERY** high false positive risk! If your phpMussel setup or your website's upload facility deals with more than low volumes of uploads, is expected to process "binary files", anything other than very small files, or is expected to process large images, videos, executable files, etc, then this particular signature file should, in most cases, be avoided."
