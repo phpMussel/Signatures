@@ -146,7 +146,7 @@ clamav.fdb:
 phpmussel.fdb:
  Name: "phpMussel filename signatures."
  Extended Description: "Signatures in this signature file deal solely and specifically with the names of the files being scanned (e.g., the names of uploaded files as per supplied by the client attempting the upload). It probably won't catch too much, but the memory footprint and performance cost is extremely small, it has a very low false positive risk, and could potentially reduce the memory footprint of other signature files when it catches things by making it unnecessary to scan the caught files further in some cases. Generally recommended for most phpMussel setups."
- Version: "2019.237.608"
+ Version: "2020.159.569"
  Minimum Required: "1.0.0-DEV"
  Minimum Required PHP: "5.4.0"
  Remote: "https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat"
@@ -159,7 +159,7 @@ phpmussel.fdb:
   To:
    - "signatures/phpmussel.fdb"
   Checksum:
-   - "12f98e183c934830c1f027ba78d0458bcfcc580014efb8d45b20195ee6501150:52797"
+   - "8821d5afbd36f6ed5b790a69b631893bca661127a95061d372716f9c10ff7a4d:52832"
  Reannotate: "signatures.dat"
 clamav.hdb:
  Name: "ClamAV hash signatures."
@@ -398,7 +398,7 @@ phpmussel_regex.ndb:
 phpmussel.udb:
  Name: "phpMussel URL scanner signatures."
  Extended Description: "Whenever a file is scanned by phpMussel, phpMussel will attempt to detect any URLs contained inside the file, and then match those URLs, their domain part, and their query part against lists of URLs, domains, and queries known to be malicious or dangerous. Existence of such malicious or dangerous URLs, domains, or queries would likely in itself be undesirable for most people, but may also indicate that the file containing them could potentially be malicious or dangerous too (although not necessarily proving that the file is definitively malicious or dangerous beyond all doubt). The memory footprint and performance cost is relatively small, and it has a very low false positive risk. Generally recommended for most phpMussel setups."
- Version: "2019.274.145"
+ Version: "2020.159.569"
  Minimum Required: "1.0.0-DEV"
  Minimum Required PHP: "5.4.0"
  Remote: "https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat"
@@ -411,7 +411,7 @@ phpmussel.udb:
   To:
    - "signatures/phpmussel.udb"
   Checksum:
-   - "f070136126fce8293b500d21e83085ae96b5579e82f37baa6f922bc10e396c06:1721852"
+   - "3ffffdacd24be84b6c27d2bd2b67343d12ae5caed51efb686fe13422052dfa33:1725986"
  Reannotate: "signatures.dat"
 clamav_elf.db:
  Name: "ClamAV ELF signatures."
