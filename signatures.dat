@@ -398,7 +398,7 @@ phpmussel_regex.ndb:
 phpmussel.udb:
  Name: "phpMussel URL scanner signatures."
  Extended Description: "Whenever a file is scanned by phpMussel, phpMussel will attempt to detect any URLs contained inside the file, and then match those URLs, their domain part, and their query part against lists of URLs, domains, and queries known to be malicious or dangerous. Existence of such malicious or dangerous URLs, domains, or queries would likely in itself be undesirable for most people, but may also indicate that the file containing them could potentially be malicious or dangerous too (although not necessarily proving that the file is definitively malicious or dangerous beyond all doubt). The memory footprint and performance cost is relatively small, and it has a very low false positive risk. Generally recommended for most phpMussel setups."
- Version: "2020.159.569"
+ Version: "2020.198.281"
  Minimum Required: "1.0.0-DEV"
  Minimum Required PHP: "5.4.0"
  Remote: "https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat"
@@ -411,7 +411,7 @@ phpmussel.udb:
   To:
    - "signatures/phpmussel.udb"
   Checksum:
-   - "3ffffdacd24be84b6c27d2bd2b67343d12ae5caed51efb686fe13422052dfa33:1725986"
+   - "6b789459f070c3c86037b5ae1edd3f05f913c750b0859849d99d98e6ea2525ce:2270831"
  Reannotate: "signatures.dat"
 clamav_elf.db:
  Name: "ClamAV ELF signatures."
