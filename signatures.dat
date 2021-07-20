@@ -57,7 +57,7 @@ clamav.db:
   single-process setups, using shared hosting with specific memory caps, etc), then this particular signature file should,
   in most cases, be avoided. Otherwise, if your server's processing capacity is good, or if your phpMussel setup or your
   website's upload facility generally only needs to process small files, it would be recommended.
- Version: "2021.155.686"
+ Version: "2021.200.266"
  Minimum Required: "1.0.0"
  Dependencies:
   phpMussel Core: ">=1"
@@ -71,7 +71,7 @@ clamav.db:
   To:
    - "signatures/clamav.db"
   Checksum:
-   - "b9bd366edcc82cae94a7c0882e4d21c80ddcc11cd3cb1cbf385a8d0ab2bd8d58:480995"
+   - "581c4c9f568302b242366d6a13d6439fd40e8f6a722924c82abca24669918df6:480673"
  Reannotate: "signatures.dat"
 phpmussel.db:
  Name: "phpMussel standard signatures."
@@ -99,7 +99,7 @@ clamav_regex.db:
  Extended Description: >
   Same as its non-regex counterpart, except that the signatures in this signature file can contain regular expressions
   (whereas its counterpart can't).
- Version: "2021.155.686"
+ Version: "2021.200.266"
  Minimum Required: "1.0.0"
  Dependencies:
   phpMussel Core: ">=1"
@@ -113,7 +113,7 @@ clamav_regex.db:
   To:
    - "signatures/clamav_regex.db"
   Checksum:
-   - "a2bfe0e5143a08a5249ead6fe337f74cace796e2f51fe3980bdbf03b409e6308:28569"
+   - "2ff86bf4f2c687c8405ba827c44e83a254150bf34b449c60889bb80a507c0966:28569"
  Reannotate: "signatures.dat"
 phpmussel_regex.db:
  Name: "phpMussel standard regex signatures."
@@ -192,7 +192,7 @@ clamav.hdb:
   polymorphic viruses and malware, but relatively useful against older, non-polymorphic viruses and malware. The memory
   footprint and performance cost is relatively small, and it has a very low false positive risk. Generally recommended for
   most phpMussel setups.
- Version: "2021.155.685"
+ Version: "2021.200.266"
  Minimum Required: "1.0.0"
  Dependencies:
   phpMussel Core: ">=1"
@@ -206,7 +206,7 @@ clamav.hdb:
   To:
    - "signatures/clamav.hdb"
   Checksum:
-   - "5d6f58fe46495af14e1b509c30fe1dadcd80431c23739862cb16144c5272dc93:4443354"
+   - "be28350dadff7be98d9af982251ef637372df7a57d9e3778b48ea150d5a47949:4442731"
  Reannotate: "signatures.dat"
 phpmussel.hdb:
  Name: "phpMussel hash signatures."
@@ -239,7 +239,7 @@ clamav.htdb:
   could be uploaded to your website, or that your phpMussel setup could be used to scan HTML content, then you should, in
   most cases, use this signature file. If not though, it won't most likely won't be particularly useful for you and should
   be ignored.
- Version: "2021.155.686"
+ Version: "2021.200.266"
  Minimum Required: "1.0.0"
  Dependencies:
   phpMussel Core: ">=1"
@@ -253,7 +253,7 @@ clamav.htdb:
   To:
    - "signatures/clamav.htdb"
   Checksum:
-   - "c7bcf62b9515e379ea416f42d935a1e34642bb08d9bad5fbc76da3c51df982f7:833963"
+   - "8e1fe12e230125225d4b9116cd6a3e4b6839023e6c4de38c8d6a189f95efb50b:834492"
  Reannotate: "signatures.dat"
 phpmussel.htdb:
  Name: "phpMussel HTML signatures."
@@ -283,7 +283,7 @@ clamav_regex.htdb:
  Extended Description: >
   Same as its non-regex counterpart, except that the signatures in this signature file can contain regular expressions
   (whereas its counterpart can't).
- Version: "2021.155.686"
+ Version: "2021.200.266"
  Minimum Required: "1.0.0"
  Dependencies:
   phpMussel Core: ">=1"
@@ -297,7 +297,7 @@ clamav_regex.htdb:
   To:
    - "signatures/clamav_regex.htdb"
   Checksum:
-   - "1f7d2c13f63b1b41aeea4368706461dfa6868de0c58b848eae6f0922af6e9fc6:336718"
+   - "7e8b89fd05e99a3a039a32f29e00f6e1928c36e0a70e2d4b6ba80c900487f980:335551"
  Reannotate: "signatures.dat"
 phpmussel_regex.htdb:
  Name: "phpMussel HTML regex signatures."
@@ -329,7 +329,7 @@ clamav.mdb:
   file. If not though, it won't most likely won't be particularly useful for you and should be ignored. (Of course, in
   general, I would advise against allowing PE files to be uploaded to your website anyway, due to the significantly higher
   risk factor associated with this type of file, regardless of precautions and safeguards used).
- Version: "2021.155.685"
+ Version: "2021.200.266"
  Minimum Required: "1.0.0"
  Dependencies:
   phpMussel Core: ">=1"
@@ -343,7 +343,7 @@ clamav.mdb:
   To:
    - "signatures/clamav.mdb"
   Checksum:
-   - "47e8188140cfbfe4a939ac5cc29f363e2dc8f705798ab5d87b792b0275b731fe:15097188"
+   - "0f3e415603af2b557ad3a7fedf867e43996a6bbe3bb0dbe13a29a5c253df7c84:15097285"
  Reannotate: "signatures.dat"
 phpmussel.mdb:
  Name: "phpMussel PE sectional signatures."
@@ -408,7 +408,7 @@ clamav.ndb:
   single-process setups, using shared hosting with specific memory caps, etc), then this particular signature file should,
   in most cases, be avoided. Otherwise, if your server's processing capacity is good, or if your phpMussel setup or your
   website's upload facility generally only needs to process small files, it would be recommended.
- Version: "2021.155.686"
+ Version: "2021.200.266"
  Minimum Required: "1.0.0"
  Dependencies:
   phpMussel Core: ">=1"
@@ -422,7 +422,7 @@ clamav.ndb:
   To:
    - "signatures/clamav.ndb"
   Checksum:
-   - "063335847c4f71a27cc8dbd4802aa963645b22a8c2758c9b9de62b2ad5b3d639:292743"
+   - "c4b9599c9ae1a8324bb1f497d131f172fedcbefcd22ea390f841ca50e9716bb2:293252"
  Reannotate: "signatures.dat"
 phpmussel.ndb:
  Name: "phpMussel normalised signatures."
@@ -451,7 +451,7 @@ clamav_regex.ndb:
  Extended Description: >
   Same as its non-regex counterpart, except that the signatures in this signature file can contain regular expressions
   (whereas its counterpart can't).
- Version: "2021.155.686"
+ Version: "2021.200.266"
  Minimum Required: "1.0.0"
  Dependencies:
   phpMussel Core: ">=1"
@@ -465,7 +465,7 @@ clamav_regex.ndb:
   To:
    - "signatures/clamav_regex.ndb"
   Checksum:
-   - "cbc1f0c3c80a3f3b0fd96a7abcc13e28cc64812a0c12ba32d3a36f3fe51076b7:47686"
+   - "85c1b6c7ef154a93bb69a89a23d0a0dd732a691bdf56726c12414ace8019d3d1:47697"
  Reannotate: "signatures.dat"
 phpmussel_regex.ndb:
  Name: "phpMussel normalised regex signatures."
@@ -520,7 +520,7 @@ clamav_elf.db:
   Signatures in this signature file work solely and specifically with executable Linux files (or "ELF" files). If there's
   any possibility that your phpMussel setup could be used to scan ELF files, then you should, in most cases, use this
   signature file. If not though, it won't most likely won't be particularly useful for you and should be ignored.
- Version: "2021.155.686"
+ Version: "2021.200.266"
  Minimum Required: "1.0.0"
  Dependencies:
   phpMussel Core: ">=1"
@@ -534,7 +534,7 @@ clamav_elf.db:
   To:
    - "signatures/clamav_elf.db"
   Checksum:
-   - "e67045ef69e38dbdb28724057f55d30462e66adbe1629a74ec7003999a87bc7f:9575"
+   - "71a94869462136c98296a3e6e323dbd45e54dcc38c0300950d2610adf6675bc5:9575"
  Reannotate: "signatures.dat"
 phpmussel_elf.db:
  Name: "phpMussel ELF signatures."
@@ -563,7 +563,7 @@ clamav_elf_regex.db:
  Extended Description: >
   Same as its non-regex counterpart, except that the signatures in this signature file can contain regular expressions
   (whereas its counterpart can't).
- Version: "2021.155.686"
+ Version: "2021.200.266"
  Minimum Required: "1.0.0"
  Dependencies:
   phpMussel Core: ">=1"
@@ -577,7 +577,7 @@ clamav_elf_regex.db:
   To:
    - "signatures/clamav_elf_regex.db"
   Checksum:
-   - "e3a7a890272f3d4b453cbfe65c75df3bde5d4443ca0cb65466a10571c8330657:1503"
+   - "45380c84847024d95c87d466903d9f2926bec9797a9edfbc93cf0c4ae868a30c:1491"
  Reannotate: "signatures.dat"
 clamav_email.db:
  Name: "ClamAV email signatures."
@@ -585,7 +585,7 @@ clamav_email.db:
   Signatures in this signature file work solely and specifically with saved email files. If there's any possibility that
   your phpMussel setup could be used to scan saved email files, then you should, in most cases, use this signature file.
   If not though, it won't most likely won't be particularly useful for you and should be ignored.
- Version: "2021.155.686"
+ Version: "2021.200.266"
  Minimum Required: "1.0.0"
  Dependencies:
   phpMussel Core: ">=1"
@@ -599,7 +599,7 @@ clamav_email.db:
   To:
    - "signatures/clamav_email.db"
   Checksum:
-   - "e57221b052c9a827e7e25be694c8336d0c69fe6568c96a13b06c00281b78ddfa:138163"
+   - "dfa34821faab19ad4abe12e326cef888ecf1c8fdc2264b0ce1d8c142820b00ca:138275"
  Reannotate: "signatures.dat"
 phpmussel_email.db:
  Name: "phpMussel email signatures."
@@ -628,7 +628,7 @@ clamav_email_regex.db:
  Extended Description: >
   Same as its non-regex counterpart, except that the signatures in this signature file can contain regular expressions
   (whereas its counterpart can't).
- Version: "2021.155.686"
+ Version: "2021.200.266"
  Minimum Required: "1.0.0"
  Dependencies:
   phpMussel Core: ">=1"
@@ -642,7 +642,7 @@ clamav_email_regex.db:
   To:
    - "signatures/clamav_email_regex.db"
   Checksum:
-   - "dcea0f82c15264de92856cedb156c405fef83867e395f0b7d02003f637b7eddd:101940"
+   - "2ce7351a52ef801770f4dd83804dba182f2f2805aadb99b44c7cb7d282cf8208:101441"
  Reannotate: "signatures.dat"
 phpmussel_email_regex.db:
  Name: "phpMussel email regex signatures."
@@ -676,7 +676,7 @@ clamav_exe.db:
   safeguards used). Please note that this signature file contains an *very* large number of signatures, and will most
   certainly incur a performance cost when attempting to scan PE files (this performance cost doesn't apply to other
   operations or other types of files).
- Version: "2021.155.686"
+ Version: "2021.200.266"
  Minimum Required: "1.0.0"
  Dependencies:
   phpMussel Core: ">=1"
@@ -690,7 +690,7 @@ clamav_exe.db:
   To:
    - "signatures/clamav_exe.db"
   Checksum:
-   - "36f90a8a5db6703d43b4e79eae03c1e57c8866550fc3fa443551b3d056a0d2f9:18382895"
+   - "7416b0edecd29a6cd760babe6df936955eb3a1ee14018a3c0376432286ae74d7:18383761"
  Reannotate: "signatures.dat"
 phpmussel_exe.db:
  Name: "phpMussel PE signatures."
@@ -722,7 +722,7 @@ clamav_exe_regex.db:
  Extended Description: >
   Same as its non-regex counterpart, except that the signatures in this signature file can contain regular expressions
   (whereas its counterpart can't).
- Version: "2021.155.686"
+ Version: "2021.200.266"
  Minimum Required: "1.0.0"
  Dependencies:
   phpMussel Core: ">=1"
@@ -736,7 +736,7 @@ clamav_exe_regex.db:
   To:
    - "signatures/clamav_exe_regex.db"
   Checksum:
-   - "b39fc06a4c6b6e3835fcd19355aa0c57f5f17874edfcf798f53d9e51ef3f7df6:440293"
+   - "f4fe78f49d05f449572e4b18bbf3a5df8f00d09a674db9f13d623c2af447b5d5:439578"
  Reannotate: "signatures.dat"
 phpmussel_exe_regex.db:
  Name: "phpMussel PE regex signatures."
@@ -765,7 +765,7 @@ clamav_graphics.db:
   Signatures in this signature file work with files belonging to various graphics formats. If there's any possibility that
   your phpMussel setup could be used to scan images or any other type of graphics file, then you should, in most cases,
   use this signature file. If not though, it won't most likely won't be particularly useful for you and should be ignored.
- Version: "2021.155.686"
+ Version: "2021.200.266"
  Minimum Required: "1.0.0"
  Dependencies:
   phpMussel Core: ">=1"
@@ -808,7 +808,7 @@ clamav_graphics_regex.db:
  Extended Description: >
   Same as its non-regex counterpart, except that the signatures in this signature file can contain regular expressions
   (whereas its counterpart can't).
- Version: "2021.155.686"
+ Version: "2021.200.266"
  Minimum Required: "1.0.0"
  Dependencies:
   phpMussel Core: ">=1"
@@ -822,7 +822,7 @@ clamav_graphics_regex.db:
   To:
    - "signatures/clamav_graphics_regex.db"
   Checksum:
-   - "9c29d8569162781a30ca48390ce392ab54955a1caf3ab2aedc3452671f4b0d02:673"
+   - "679284ab4fe11695ac96b2c661bab8d8a8fdc52cb503959d1147e9af07a59924:596"
  Reannotate: "signatures.dat"
 phpmussel_graphics_regex.db:
  Name: "phpMussel graphics regex signatures."
@@ -853,7 +853,7 @@ clamav_java.db:
   are two completely different things. If there's any possibility that your phpMussel setup could be used to scan Java
   files, then you should, in most cases, use this signature file. If not though, it won't most likely won't be
   particularly useful for you and should be ignored.
- Version: "2021.155.686"
+ Version: "2021.200.266"
  Minimum Required: "1.0.0"
  Dependencies:
   phpMussel Core: ">=1"
@@ -867,14 +867,14 @@ clamav_java.db:
   To:
    - "signatures/clamav_java.db"
   Checksum:
-   - "a86807aed5c3b63fabf27cdb2446ad98b1dac4ab2b8beb3d2de19668a85202c4:13427"
+   - "f13414c1eae21caf82b3f29faa9de30644f71d920ededa93beabc5f02139a5ef:13427"
  Reannotate: "signatures.dat"
 clamav_java_regex.db:
  Name: "ClamAV Java regex signatures."
  Extended Description: >
   Same as its non-regex counterpart, except that the signatures in this signature file can contain regular expressions
   (whereas its counterpart can't).
- Version: "2021.155.686"
+ Version: "2021.200.266"
  Minimum Required: "1.0.0"
  Dependencies:
   phpMussel Core: ">=1"
@@ -888,7 +888,7 @@ clamav_java_regex.db:
   To:
    - "signatures/clamav_java_regex.db"
   Checksum:
-   - "653dff1cb27ea8f55cf11ed6b4c27b9fa8afb3998e87ea2fc1332bc3c6eaf382:6121"
+   - "1fc4d1dc59b7fa6f1db3490a27db5495f2eff155dcfd102c02c39c39ee57e54b:6121"
  Reannotate: "signatures.dat"
 clamav_macho.db:
  Name: "ClamAV Mach-O signatures."
@@ -896,7 +896,7 @@ clamav_macho.db:
   Signatures in this signature file work solely and specifically with Mach-O files. If there's any possibility that your
   phpMussel setup could be used to scan Mach-O files, then you should, in most cases, use this signature file. If not
   though, it won't most likely won't be particularly useful for you and should be ignored.
- Version: "2021.155.686"
+ Version: "2021.200.266"
  Minimum Required: "1.0.0"
  Dependencies:
   phpMussel Core: ">=1"
@@ -917,7 +917,7 @@ clamav_macho_regex.db:
  Extended Description: >
   Same as its non-regex counterpart, except that the signatures in this signature file can contain regular expressions
   (whereas its counterpart can't).
- Version: "2021.155.686"
+ Version: "2021.200.266"
  Minimum Required: "1.0.0"
  Dependencies:
   phpMussel Core: ">=1"
@@ -945,7 +945,7 @@ clamav_ole.db:
   been perfected, and so there may be numerous occasions where phpMussel fails to detect the OLE objects contained in some
   types of files, or in files crafted in a particular way (it is planned however, to improve phpMussel's ability to detect
   OLE objects in the future).
- Version: "2021.155.686"
+ Version: "2021.200.266"
  Minimum Required: "1.0.0"
  Dependencies:
   phpMussel Core: ">=1"
@@ -959,7 +959,7 @@ clamav_ole.db:
   To:
    - "signatures/clamav_ole.db"
   Checksum:
-   - "0813c6f598be7b11dd98500fc37a18ef20749986989ad933c48a38534feae254:428681"
+   - "3bad0251389e966cc157591f8af915e463e81fdb3341a84f8bd6a29ce2399eaf:428623"
  Reannotate: "signatures.dat"
 phpmussel_ole.db:
  Name: "phpMussel OLE signatures."
@@ -994,7 +994,7 @@ clamav_ole_regex.db:
  Extended Description: >
   Same as its non-regex counterpart, except that the signatures in this signature file can contain regular expressions
   (whereas its counterpart can't).
- Version: "2021.155.686"
+ Version: "2021.200.266"
  Minimum Required: "1.0.0"
  Dependencies:
   phpMussel Core: ">=1"
@@ -1008,7 +1008,7 @@ clamav_ole_regex.db:
   To:
    - "signatures/clamav_ole_regex.db"
   Checksum:
-   - "a01652d8869c3fc8537d7708bfe918278077dcfbae496e4056fa55b39b4ed3c7:31826"
+   - "02a3fd01ebae760eb7c242289696f3f493ba879b82300831fadc7109d08db418:31615"
  Reannotate: "signatures.dat"
 phpmussel_ole_regex.db:
  Name: "phpMussel OLE regex signatures."
@@ -1037,7 +1037,7 @@ clamav_pdf.db:
   Signatures in this signature file work solely and specifically with PDF files. If there's any possibility that your
   phpMussel setup could be used to scan PDF files, then you should, in most cases, use this signature file. If not though,
   it won't most likely won't be particularly useful for you and should be ignored.
- Version: "2021.155.686"
+ Version: "2021.200.266"
  Minimum Required: "1.0.0"
  Dependencies:
   phpMussel Core: ">=1"
@@ -1051,7 +1051,7 @@ clamav_pdf.db:
   To:
    - "signatures/clamav_pdf.db"
   Checksum:
-   - "20a7244c079b2bffe0c968e3d3c42ef63d2c25dd8c80ec6925d5532a645e5435:11623"
+   - "bdd1764992655f0b902a2ff1636d625792a8519fe114677afb4398bafffb677c:11877"
  Reannotate: "signatures.dat"
 phpmussel_pdf.db:
  Name: "phpMussel PDF signatures."
@@ -1080,7 +1080,7 @@ clamav_pdf_regex.db:
  Extended Description: >
   Same as its non-regex counterpart, except that the signatures in this signature file can contain regular expressions
   (whereas its counterpart can't).
- Version: "2021.155.686"
+ Version: "2021.200.266"
  Minimum Required: "1.0.0"
  Dependencies:
   phpMussel Core: ">=1"
@@ -1094,7 +1094,7 @@ clamav_pdf_regex.db:
   To:
    - "signatures/clamav_pdf_regex.db"
   Checksum:
-   - "4e00d044041232fe0e13a4e4965026bbe46c716c3b5d1d0f5f8841616d7e8600:9000"
+   - "f3245ee7347d9f03e37d641180f8ed4f4fd679f0172280eea0fc02b1026e9d9d:9000"
  Reannotate: "signatures.dat"
 clamav_swf.db:
  Name: "ClamAV SWF signatures."
@@ -1102,7 +1102,7 @@ clamav_swf.db:
   Signatures in this signature file work solely and specifically with SWF files (i.e., Shockwave/Flash files). If there's
   any possibility that your phpMussel setup could be used to scan SWF files, then you should, in most cases, use this
   signature file. If not though, it won't most likely won't be particularly useful for you and should be ignored.
- Version: "2021.155.686"
+ Version: "2021.200.266"
  Minimum Required: "1.0.0"
  Dependencies:
   phpMussel Core: ">=1"
@@ -1116,7 +1116,7 @@ clamav_swf.db:
   To:
    - "signatures/clamav_swf.db"
   Checksum:
-   - "c24ce40f46234b8833926679fd947960bcdd64e5e3bb9822a58e2eb359c5b026:207589"
+   - "28ed083aaeb52f84057ca6e3796e45b03ecb7e6a59ad13db31575c606d591d6f:207504"
  Reannotate: "signatures.dat"
 phpmussel_swf.db:
  Name: "phpMussel SWF signatures."
@@ -1145,7 +1145,7 @@ clamav_swf_regex.db:
  Extended Description: >
   Same as its non-regex counterpart, except that the signatures in this signature file can contain regular expressions
   (whereas its counterpart can't).
- Version: "2021.155.686"
+ Version: "2021.200.266"
  Minimum Required: "1.0.0"
  Dependencies:
   phpMussel Core: ">=1"
@@ -1159,7 +1159,7 @@ clamav_swf_regex.db:
   To:
    - "signatures/clamav_swf_regex.db"
   Checksum:
-   - "35523435f32a4fc0e273be0b670357067884083bcfe6bc91fe5e496c08a04490:16179"
+   - "7df4d049c25f17402b1ed3dc1cd9a90cc6415fab1235598486c7a3e40c65d326:16179"
  Reannotate: "signatures.dat"
 phpmussel_swf_regex.db:
  Name: "phpMussel SWF regex signatures."
