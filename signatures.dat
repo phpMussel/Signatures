@@ -161,7 +161,7 @@ phpmussel.fdb:
   memory footprint and performance cost is extremely small, it has a very low false positive risk, and could potentially
   reduce the memory footprint of other signature files when it catches things by making it unnecessary to scan the caught
   files further in some cases. Generally recommended for most phpMussel setups.
- Version: "2022.82.0"
+ Version: "2024.80.0"
  Dependencies:
   phpMussel Core: ">=1"
  Remote: "https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat"
@@ -174,7 +174,7 @@ phpmussel.fdb:
   To:
    - "signatures/phpmussel.fdb"
   Checksum:
-   - "12f98e183c934830c1f027ba78d0458bcfcc580014efb8d45b20195ee6501150:52797"
+   - "6e7b69e770853658bb6bb0c4d92ead6290d541935e8f67f33a63c68290240463:52693"
  Reannotate: "signatures.dat"
 clamav.hdb:
  Name: "ClamAV hash signatures."
@@ -477,7 +477,7 @@ phpmussel.udb:
   dangerous too (although not necessarily proving that the file is definitively malicious or dangerous beyond all doubt).
   The memory footprint and performance cost is relatively small, and it has a very low false positive risk. Generally
   recommended for most phpMussel setups.
- Version: "2023.325.240"
+ Version: "2024.80.0"
  Dependencies:
   phpMussel Core: ">=1"
  Remote: "https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat"
@@ -490,7 +490,7 @@ phpmussel.udb:
   To:
    - "signatures/phpmussel.udb"
   Checksum:
-   - "2041f5ec1ec0588d2cefc6292092e127609a66c118cdf9ec1de2ac8aa55d7ce8:3740765"
+   - "2cdf8bfd146e7286b076cdd43873645c4100cf840e2174bff54285e699c1421e:3740875"
  Reannotate: "signatures.dat"
 clamav_elf.db:
  Name: "ClamAV ELF signatures."
