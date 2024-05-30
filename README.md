@@ -1,4 +1,3 @@
-[![Join the chat at https://gitter.im/phpMussel2/Lobby](https://badges.gitter.im/phpMussel2/Lobby.svg)](https://gitter.im/phpMussel2/Lobby)
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
 ## **What is phpMussel?**
@@ -32,4 +31,4 @@ This repository, "__[signatures](https://github.com/phpMussel/Signatures)__", is
 ---
 
 
-Last Updated: 19 July 2021 (2021.07.19).
+Last Updated: 30 May 2024 (2024.05.30).
