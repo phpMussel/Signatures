@@ -477,7 +477,7 @@ phpmussel.udb:
   dangerous too (although not necessarily proving that the file is definitively malicious or dangerous beyond all doubt).
   The memory footprint and performance cost is relatively small, and it has a very low false positive risk. Generally
   recommended for most phpMussel setups.
- Version: "2024.80.0"
+ Version: "2024.167.0"
  Dependencies:
   phpMussel Core: ">=1"
  Remote: "https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat"
@@ -490,7 +490,7 @@ phpmussel.udb:
   To:
    - "signatures/phpmussel.udb"
   Checksum:
-   - "2cdf8bfd146e7286b076cdd43873645c4100cf840e2174bff54285e699c1421e:3740875"
+   - "5e2cdc0338efb622639c23b8e759e861e07f0694485a95dc89b14a8ce1d47598:4666768"
  Reannotate: "signatures.dat"
 clamav_elf.db:
  Name: "ClamAV ELF signatures."
