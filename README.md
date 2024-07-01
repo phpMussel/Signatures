@@ -25,10 +25,10 @@ This repository, "__[signatures](https://github.com/phpMussel/Signatures)__", is
 - **[Русский](https://github.com/phpMussel/Docs/blob/master/readme.ru.md)**
 - **[اردو](https://github.com/phpMussel/Docs/blob/master/readme.ur.md)**
 - **[Tiếng Việt](https://github.com/phpMussel/Docs/blob/master/readme.vi.md)**
-- **[中文（简体）](https://github.com/phpMussel/Docs/blob/master/readme.zh.md)**
-- **[中文（傳統）](https://github.com/phpMussel/Docs/blob/master/readme.zh-tw.md)**
+- **[中文（简体）](https://github.com/phpMussel/Docs/blob/master/readme.zh-Hans.md)**
+- **[中文（傳統）](https://github.com/phpMussel/Docs/blob/master/readme.zh-Hant.md)**
 
 ---
 
 
-Last Updated: 30 May 2024 (2024.05.30).
+Last Updated: 1 July 2024 (2024.07.01).
