@@ -412,7 +412,7 @@ phpmussel.ndb:
   Signatures in this signature file work with ANSI-normalised file content (in the context of phpMussel, "ANSI-normalised"
   means lowercased, and with all non-ANSI characters and all characters outside of 21-7e stripped out). Covers a wide
   range of formats. Generally recommended for most phpMussel setups, and has a low false positive risk.
- Version: "2019.237.608"
+ Version: "2024.187.0"
  Dependencies:
   phpMussel Core: ">=1"
  Remote: "https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat"
@@ -425,7 +425,7 @@ phpmussel.ndb:
   To:
    - "signatures/phpmussel.ndb"
   Checksum:
-   - "156bad66385f28821ae87935129390846c5039f7b6a6f35c591fa328b4d14ba5:47890"
+   - "9452fca90cafa86e364d31185f6889284f99114a12bda9825a29158eb60a1d01:47390"
  Reannotate: "signatures.dat"
 clamav_regex.ndb:
  Name: "ClamAV normalised regex signatures."
@@ -753,7 +753,7 @@ phpmussel_graphics.db:
   Signatures in this signature file work with files belonging to various graphics formats. If there's any possibility that
   your phpMussel setup could be used to scan images or any other type of graphics file, then you should, in most cases,
   use this signature file. If not though, it won't most likely won't be particularly useful for you and should be ignored.
- Version: "2020.72.195"
+ Version: "2024.187.0"
  Dependencies:
   phpMussel Core: ">=1"
  Remote: "https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat"
@@ -766,7 +766,7 @@ phpmussel_graphics.db:
   To:
    - "signatures/phpmussel_graphics.db"
   Checksum:
-   - "733a015a2bec5fbaef2b57f9ffc04551706626235891ccf51fb9b0d8d180da3e:7102"
+   - "9c5b06b599455b750afc657d800069e1944eff3fade1bedf6ca1e06ab3b0fa60:6764"
  Reannotate: "signatures.dat"
 clamav_graphics_regex.db:
  Name: "ClamAV graphics regex signatures."
