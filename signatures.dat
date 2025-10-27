@@ -793,7 +793,7 @@ phpmussel_graphics_regex.db:
  Extended Description: >
   Same as its non-regex counterpart, except that the signatures in this signature file can contain regular expressions
   (whereas its counterpart can't).
- Version: "2025.136.0"
+ Version: "2025.300.0"
  Dependencies:
   phpMussel Core: ">=1"
  Remote: "https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat"
@@ -806,7 +806,7 @@ phpmussel_graphics_regex.db:
   To:
    - "signatures/phpmussel_graphics_regex.db"
   Checksum:
-   - "81d834a01ca85578eec059a2a3117d2a2349c7cfa53de995ac83225dca310ff6:106"
+   - "83f70b6b3338c968f4f5d7acb63b2d93f3155b11f5475d8a53c07e22faf115fa:84"
  Reannotate: "signatures.dat"
 clamav_java.db:
  Name: "ClamAV Java signatures."
