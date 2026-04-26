@@ -207,7 +207,7 @@ phpmussel.hdb:
   polymorphic viruses and malware, but relatively useful against older, non-polymorphic viruses and malware. The memory
   footprint and performance cost is relatively small, and it has a very low false positive risk. Generally recommended for
   most phpMussel setups.
- Version: "2023.282.0"
+ Version: "2026.115.0"
  Dependencies:
   phpMussel Core: ">=1.9"
  Remote: "https://raw.githubusercontent.com/phpMussel/Signatures/master/signatures.dat"
@@ -220,7 +220,7 @@ phpmussel.hdb:
   To:
    - "signatures/phpmussel.hdb"
   Checksum:
-   - "69038cdf90f4dfe6dcd60cc3daf50c80e7a9068d01521500c4213ba2613846b4:859"
+   - "5d6ad2bd5b8cbba64c907bbfc8799391a4d1770f26ac9bf616186e17b019ff6e:1036"
  Reannotate: "signatures.dat"
 clamav.htdb:
  Name: "ClamAV HTML signatures."
